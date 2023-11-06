@@ -1,0 +1,45 @@
+.input_container {
+  width: 35rem;
+  margin-top: 15px;
+}
+
+.btn_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn_list {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.btn_cancel {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    border: none;
+}
+
+.btn_cancel:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.btn_save {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    border: none;
+}
+
+
+.btn_save:hover {
+    background-color: green;
+    color: white;
+}
+
+

@@ -1,0 +1,36 @@
+.input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 8px;
+}
+
+.label_text {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.input {
+    background-color: rgb(209, 205, 205);
+    border: none;
+    outline: none;
+    padding:1rem;
+    box-sizing: border-box;
+
+}
+
+.textarea{
+    background-color: rgb(209, 205, 205);
+    border: none;
+    outline: none;
+    padding: 1.2rem;
+    box-sizing: border-box;
+   
+}
+
+.textarea:focus, input:focus {
+    border-bottom: 2px solid  black;
+    border-radius: 2px;
+}

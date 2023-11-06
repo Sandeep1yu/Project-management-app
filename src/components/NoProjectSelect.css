@@ -1,0 +1,17 @@
+.no_project_container {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.no_project_container img{
+    width: 100px;
+
+}
+
+.text {
+    margin-top: 10px;
+}
+
+.paragraph_text {
+    font-size: 15px;
+}
