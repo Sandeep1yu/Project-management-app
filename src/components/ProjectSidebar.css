@@ -1,6 +1,6 @@
 .sidebar {
     width: 250px;
-    background-color: darkgray;
+    background-color: black;
     color: white;
     border-radius: 8px;
     padding: 2rem;
@@ -12,6 +12,30 @@
     margin-bottom: 3rem;
 }
 
+.project_item {
+    list-style: none;
+    margin-top: 30px;
+
+}
+
+.projects_title{
+    padding: .4rem;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    margin-left: 40px;
+    color: white;
+    width: 70%;
+    
+    
+   
+}
+
+.projects_title:hover {
+    color: black;
+    background-color: darkgray;
+    cursor: pointer;
+}
 
 /* .btn_container button{
     padding: .4rem;

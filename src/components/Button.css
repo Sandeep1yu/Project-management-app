@@ -1,12 +1,15 @@
 button{
     padding: .4rem;
-    background-color: lightgray;
+    background-color: black;
     border: none;
     border-radius: 4px;
     margin-left: 40px;
+    color: white;
    
 }
 
 button:hover {
-    color: whitesmoke;
+    color: black;
+    background-color: darkgray;
+    cursor: pointer;
 }
